@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background Circle -->
+  <circle cx="150" cy="150" r="140" fill="none" stroke="#9c59b6" stroke-width="2" opacity="0.7" />
+  
+  <!-- Inner Circle with glow -->
+  <circle cx="150" cy="150" r="120" fill="none" stroke="#f5c542" stroke-width="2" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Magical Runes and Symbols -->
+  <g opacity="0.9" stroke="#f5c542" stroke-width="1.5" fill="none">
+    <!-- Outer Ring Symbols -->
+    <path d="M150,10 L155,25 L145,25 Z" />
+    <path d="M150,290 L155,275 L145,275 Z" />
+    <path d="M10,150 L25,155 L25,145 Z" />
+    <path d="M290,150 L275,155 L275,145 Z" />
+    
+    <!-- Diagonal Symbols -->
+    <path d="M45,45 L55,55 M45,55 L55,45" />
+    <path d="M45,255 L55,245 M45,245 L55,255" />
+    <path d="M245,45 L255,55 M245,55 L255,45" />
+    <path d="M245,255 L255,245 M245,245 L255,255" />
+    
+    <!-- Magical Stars -->
+    <path d="M88,35 L92,45 L102,45 L94,52 L97,62 L88,56 L79,62 L82,52 L74,45 L84,45 Z" />
+    <path d="M265,88 L270,98 L280,98 L272,105 L275,115 L265,109 L255,115 L258,105 L250,98 L260,98 Z" />
+    <path d="M88,265 L92,275 L102,275 L94,282 L97,292 L88,286 L79,292 L82,282 L74,275 L84,275 Z" />
+    <path d="M35,212 L40,222 L50,222 L42,229 L45,239 L35,233 L25,239 L28,229 L20,222 L30,222 Z" />
+  </g>
+  
+  <!-- Inner Magical Pattern -->
+  <g stroke="#f5c542" stroke-width="1" opacity="0.6">
+    <circle cx="150" cy="150" r="90" fill="none" />
+    <circle cx="150" cy="150" r="60" fill="none" />
+    <circle cx="150" cy="150" r="30" fill="none" />
+    
+    <!-- Inner Star/Pentagram -->
+    <path d="M150,60 L170,125 L240,125 L185,165 L200,235 L150,195 L100,235 L115,165 L60,125 L130,125 Z" fill="none" stroke="#9c59b6" stroke-width="1.5" opacity="0.8" />
+  </g>
+  
+  <!-- Magical Glyphs -->
+  <g fill="#f5c542" opacity="0.8">
+    <path d="M145,85 L155,85 L155,95 L145,95 Z" />
+    <path d="M145,205 L155,205 L155,215 L145,215 Z" />
+    <path d="M85,145 L95,145 L95,155 L85,155 Z" />
+    <path d="M205,145 L215,145 L215,155 L205,155 Z" />
+  </g>
+  
+  <!-- Pulsing Dots -->
+  <circle cx="150" cy="150" r="5" fill="#f5c542">
+    <animate attributeName="r" values="3;7;3" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg> 
